@@ -1,0 +1,68 @@
+[
+    {
+        "id": "register",
+        "label": "Register",
+        "name": "register",
+        "api":"",
+        "fields": [
+            {
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "class": "",
+                "id":"",
+                "event":"",
+                "eventCall":"",
+                "validation": "required",
+                "validation_type": "email",
+                "value":""
+            }
+        ],
+        "value": "option-3",
+        "is_completed":""
+    },
+    {
+        "id": "pan",
+        "label": "PAN",
+        "name": "pan",
+        "api":"",
+        "fields": [
+            {
+                "label": "PAN Number",
+                "name": "pan_number",
+                "type": "text",
+                "class": "",
+                "id":"",
+                "event":"",
+                "eventCall":"",
+                "validation": "required",
+                "validation_type": "PAN",
+                "value":""
+            }
+        ],
+        "value": "option-3",
+        "is_completed":""
+    },
+    {
+        "id": "personalDetail",
+        "label": "Personal Detail",
+        "name": "personalDetail",
+        "api":"",
+        "fields": [
+            {
+                "label": "PAN Number",
+                "name": "pan_number",
+                "type": "text",
+                "class": "",
+                "id":"",
+                "event":"",
+                "eventCall":"",
+                "validation": "required",
+                "validation_type": "PAN",
+                "value":""
+            }
+        ],
+        "value": "option-3",
+        "is_completed":""
+    }
+]

@@ -1,0 +1,38 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Documents</ion-title>
+  </ion-navbar>
+  <img src="assets/imgs/logo.png" class="logo" />
+</ion-header>
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <button ion-button align-self-center (click)="choseFile(1)">Chose Image</button>
+      <img src="{{imageFileName_1}}" *ngIf="imageFileName" alt="Ionic File" width="150" />
+    </ion-item>
+    <ion-item>
+      <button ion-button align-self-center (click)="choseFile(2)">Chose Image</button>
+      <img src="{{imageFileName_2}}" *ngIf="imageFileName" alt="Ionic File" width="150" />
+    </ion-item>
+    <ion-item>
+      <button ion-button align-self-center (click)="choseFile(3)">Chose Image</button>
+      <img src="{{imageFileName_3}}" *ngIf="imageFileName" alt="Ionic File" width="150" />
+    </ion-item>
+    <ion-item>
+      <button ion-button align-self-center (click)="choseFile(4)">Chose Image</button>
+      <img src="{{imageFileName_4}}" *ngIf="imageFileName" alt="Ionic File" width="150" />
+    </ion-item>
+    <ion-item align-self-center>
+      <div class="center">
+        <button ion-button align-self-center>Save</button>
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>

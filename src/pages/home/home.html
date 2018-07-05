@@ -1,0 +1,6 @@
+<ion-content padding>
+  <img src="assets/imgs/logo.png" class="logo" />
+  <ion-tabs tabsPlacement="top">
+    <ion-tab  *ngFor="let form_data of form_json" [root]="tab1Root" tabTitle="{{form_data.label}}" [rootParams]="form_data.name" ></ion-tab>
+  </ion-tabs>
+</ion-content>
