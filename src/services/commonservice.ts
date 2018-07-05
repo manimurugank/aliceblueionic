@@ -15,6 +15,7 @@ export class CommonService {
                     "label": "Email",
                     "name": "email",
                     "type": "text",
+                    "icon":"mail",
                     "class": "",
                     "id": "",
                     "event": "",
@@ -27,6 +28,7 @@ export class CommonService {
                     "label": "Mobile Number",
                     "name": "mobile_number",
                     "type": "text",
+                    "icon":"call",
                     "class": "",
                     "id": "",
                     "event": "",
@@ -37,7 +39,8 @@ export class CommonService {
                 }
             ],
             "value": "option-3",
-            "is_completed": ""
+            "is_completed": "",
+            "fuction":"submitEmail"
         },
         {
             "id": "pan",
@@ -49,6 +52,7 @@ export class CommonService {
                     "label": "PAN Number",
                     "name": "pan_number",
                     "type": "text",
+                    "icon":"card",
                     "class": "",
                     "id": "",
                     "event": "",

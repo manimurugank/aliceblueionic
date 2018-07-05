@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { DocumentInfoPage } from '../document-info/document-info';
-
-import { PanInfoPage } from '../pan-info/pan-info';
-import { PersonalInfoPage } from '../personal-info/personal-info';
 import { DynamicFormPage } from '../dynamic-form/dynamic-form';
 import { HTTP } from '@ionic-native/http';
 import { CommonService } from '../../services/commonservice';
@@ -19,7 +15,7 @@ export class HomePage {
   // tab2Root = AadharInfoPage;
   // tab3Root = PanInfoPage;
   // tab4Root = DocumentInfoPage;
-  constructor(public navCtrl: NavController, private http: HTTP, commonService: CommonService) {
+  constructor(public navCtrl: NavController, commonService: CommonService) {
     this.form_json = commonService.form_json;
     console.log(this.form_json);
     // this.http.get('/assets/form.json', {}, {})

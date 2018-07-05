@@ -11,7 +11,7 @@ import { BasicPage } from '../pages/basic/basic';
 import { PersonalInfoPage } from '../pages/personal-info/personal-info';
 import { FileChooser } from '@ionic-native/file-chooser';
 
-import { Camera, CameraOptions } from '@ionic-native/camera';
+import { Camera } from '@ionic-native/camera';
 import { DocumentInfoPage } from '../pages/document-info/document-info';
 
 import { PanInfoPage } from '../pages/pan-info/pan-info';

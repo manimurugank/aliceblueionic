@@ -15,7 +15,7 @@
     <ion-list>
       <div *ngFor="let form_data of form_fields">
         <ion-item *ngIf="form_data.type == 'text'">
-          <!-- <ion-label color="primary">First Name</ion-label> -->
+          <ion-label color="primary"><ion-icon name="{{form_data.icon}}"></ion-icon></ion-label>
           <ion-input formControlName="{{form_data.name}}" placeholder="{{form_data.label}}" ></ion-input>
         </ion-item>
         <ion-item *ngIf="form_data.type == 'date'">
@@ -36,7 +36,7 @@
       </div>
       <ion-item align-self-center>
         <div class="center">
-          <button ion-button align-self-center>Save</button>
+          <button ion-button align-self-center (click)="this[submitFunction]()">Save</button>
         </div>
       </ion-item>
     </ion-list>
